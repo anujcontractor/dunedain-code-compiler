@@ -1,0 +1,84 @@
+
+.contest-page {
+  font-family: 'Consolas', 'Arial', sans-serif;
+  color: #ecf0f1;
+  padding: 2rem;
+  background: linear-gradient(to right, #232526, #414345);
+  min-height: 100vh;
+}
+
+/* Contest section */
+.contest-section {
+  margin-bottom: 2rem;
+}
+
+/* Contest card */
+.contest-card {
+  background: #2c3e50;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contest-card:hover {
+  background-color: #34495e;
+  transform: translateY(-5px);
+}
+
+/* Contest card heading */
+.contest-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #1abc9c;
+}
+
+/* Contest card paragraph */
+.contest-card p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #bdc3c7;
+}
+
+/* Buttons and links within contest card */
+.contest-card button,
+.contest-card a {
+  background-color: #1abc9c;
+  color: #ecf0f1;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-right: 1rem;
+}
+
+.contest-card button:hover,
+.contest-card a:hover {
+  background-color: #16a085;
+}
+
+/* Create contest button */
+.create-contest-button {
+  background-color: #fc5c7d;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.create-contest-button:hover {
+  background-color: #eb2f64;
+  transform: scale(1.05);
+}

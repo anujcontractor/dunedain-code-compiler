@@ -1,0 +1,37 @@
+.compiler-header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 20px;
+    height: 60px;
+    text-align: center;
+    color: #fc5c7d;
+    font-size: large;
+    background-color: #242424;
+    gap: 20px;
+}
+
+#no {
+    height: 36px;
+    width: 80px;
+    font-size: 16px;
+    color: rgb(185, 185, 185);
+    border: 1px solid #3fec53;
+    border-radius: 4px;
+    background-color: #474747;
+}
+
+#no:focus {
+    outline: none;
+}
+
+.css-2b097c-container {
+    width: 120px;
+    color: black;
+    background-color: #474747;
+}
+
+.css-yk16xz-control {
+    background-color: #474747 !important;
+    border-color: #3fec53 !important;
+}
